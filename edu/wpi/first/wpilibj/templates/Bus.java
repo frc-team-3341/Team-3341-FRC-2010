@@ -1,19 +1,15 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
-
 package edu.wpi.first.wpilibj.templates;
 
 import edu.wpi.first.wpilibj.Joystick;
 
 /**
  *
- * @author 1854995
+ * @author Vineel Adusumilli
  *
  * The bus class is a way for all the objects to be able to communicate with
  * each other without having to have themselves passed to themselves.
  */
+
 public class Bus {
     public Team3341Robot main;
     public Driver driver;
@@ -34,3 +30,4 @@ public class Bus {
         return this.shooter;
     }
 }
+

@@ -1,8 +1,3 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
-
 package edu.wpi.first.wpilibj.templates;
 
 import edu.wpi.first.wpilibj.Jaguar;
@@ -12,8 +7,9 @@ import edu.wpi.first.wpilibj.RobotDrive.MotorType;
 
 /**
  *
- * @author 1854995
+ * @author Vineel Adusumilli
  */
+
 public class Driver {
     private Bus bus;
     public RobotDrive drivetrain;
@@ -30,3 +26,4 @@ public class Driver {
          drivetrain.drive(speed, 0.0);
     }
 }
+
